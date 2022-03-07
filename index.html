@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>BookMark</title>
+</head>
+<body>
+    <header>
+        <div id="encabezado">
+            <div id="imgEmcabezado">
+                <img src="./images/images/logo-bookmark.svg" alt="">
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li class="navItem"><a href="#" class="hrefNavbar">FEATURES</a></li>
+                    <li class="navItem"><a href="#" class="hrefNavbar">PIRCING</a></li>
+                    <li class="navItem"><a href="#" class="hrefNavbar">CONTACT</a></li>
+                    <li class="navItem"><a href="#" class="hrefNavbar" id="loginNav">LOGIN</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="conatiner-bookmark">
+            <div class="boxOne">
+                <div id="textBoxOne">
+                    <h1>A simple Bookmark Manager</h1>
+                    <p>
+                        A clean and simple interface to organize your favourite
+                        websites. Open a new browser tab and see your sites load
+                        instanly. Try it for free.
+                    </p>
+                    <div id="btnBoxOne">
+                        <button class="btn-textBoxOne">Get it on Chrome</button>
+                        <button class="btn-textBoxOne">Get it on Firefox</button>
+                    </div>
+                </div>
+                <div id="containerRightTemplate">
+                        <div id="imgBoxOneDiv">
+                            <img src="./images/images/illustration-hero.svg" alt=""  id="imgBoxOne">
+                        </div>
+                    <div id="blueRight"></div>
+                </div>
+            </div>
+            <div id="boxTwo">
+                <div id="containerBoxTwoElements">
+                    <div id="textBoxTwo">
+                        <h2>Features</h2>
+                        <p>
+                            Our aim is to make it quick and easy for you to access your
+                            Favourite websites. Your bookmarks sync between your devices
+                            so you can acces them on the go.
+                        </p>
+                    </div>
+                    <div id="selectList">
+                        <ul>
+                            <li>
+                                <a href="#tarjetCarrusel-1">Simple Bookmarking</a>
+                                <div class="underline"></div>
+                            </li>
+                            <li>
+                                <a href="#tarjetCarrusel-2">speedy Searching</a>
+                                <div class="underline"></div>
+                            </li>
+                            <li>
+                                <a href="#tarjetCarrusel-3">Easy Sharing</a>
+                                <div class="underline"></div>
+                            </li>
+                        </ul>
+                        <div id="barraAbajo"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="boxThree">
+                <div id="boxFeatures">
+                    <div class="contentsItemsCarrusel">
+                        <div class="itemCarrusel" id="itemCarrusel-1">
+                            <div class="tarjetCarrusel" id="tarjetCarrusel-1">
+                                <img src="./images/images/illustration-features-tab-1.svg" alt="" class="imgsSlider">
+                            </div>
+                            <div class="flechasCarrusel">
+                                <a href="#itemCarrusel-3"><i class="fa-solid fa-arrow-left"></i></a> 
+                                <a href="#itemCarrusel-2"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="itemCarrusel" id="itemCarrusel-2">
+                            <div class="tarjetCarrusel" id="tarjetCarrusel-2">
+                                <img src="./images/images/illustration-features-tab-2.svg" alt="" class="imgsSlider">
+                            </div>
+                            <div class="flechasCarrusel">
+                                <a href="#itemCarrusel-1"><i class="fa-solid fa-arrow-left"></i></a> 
+                                <a href="#itemCarrusel-3"><i class="fa-solid fa-arrow-right"></i></a>      
+                            </div>
+                        </div>
+                        <div class="itemCarrusel" id="itemCarrusel-3">
+                            <div class="tarjetCarrusel" id="tarjetCarrusel-3">
+                                <img src="./images/images/illustration-features-tab-3.svg" alt="" class="imgsSlider">
+                            </div>
+                            <div class="flechasCarrusel">
+                                <a href="#itemCarrusel-2"><i class="fa-solid fa-arrow-left"></i></a> 
+                                <a href="#itemCarrusel-1"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="blueLeft"></div>
+                </div>
+               <!-- <div id="imgBoxThreeBox">
+                   
+                </div>
+                <!--<div id="imgBoxThreeBox">
+                    <div><img src="./images/images/illustration-features-tab-1.svg" alt=""></div>
+                    <div id="blueLeft"></div>
+                </div>-->
+                <div id="textBoxThree">
+                    <h3>Bookmark in one click</h3>
+                    <p>
+                        organize you bookmaks however you like. Our
+                        simple drag-and-drop interface gives you complete
+                        contro over how you manage your favourite sites.
+                    </p>
+                    <button class="btn-boxInfo">More info</button>
+                </div>
+            </div>
+            <div id="boxFour">
+                <div id="textBoxFour">
+                    <h3>Dowload the extension</h3>
+                    <p>
+                        We´ve got more browsers in the pipeline. Please do let us know if
+                        you´ve got a favourite you´d like us to prioritize.
+                    </p>
+                </div>
+                <div id="container-browsers">
+                    <template id="template-card">
+                        <div class="card-browser">
+                            <img class="img-browser" src="" srcset="">
+                            <div class="containerInfo">
+                                <h4></h4>
+                                <span class="infoBrowser">
+                                    <p></p>
+                                    <button class="btn-browser">Add & Install Extension</button>
+                                </span>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+            <div id="boxFive">
+                <div id="boxFiveContainer">
+                    <div id="textBoxFive">
+                        <h3>frequently Asked Questions</h3>
+                        <p>
+                            Here are some of our FAQs. If you have any othe questions
+                            you´d like answered please feel free to email us
+                        </p>
+                    </div>
+                    <div id="acordeon">
+                        <div class="apartado">
+                            <div class="title">
+                                <h2>What is Bookmark</h2>
+                                <img src="./images/images/icon-arrow.svg" alt="" class="imgsAcordeon">
+                            </div>
+                            <div class="infoApartado">
+                                <p>
+                                    A bookmark is a web browser feature used to save
+                                    a web site's URL address for future reference. Bookmarks
+                                    save user and browser time, which is especially useful
+                                    for Web pages with long URLs or accessing a specific part
+                                    of the site that might not be the homepage for the site.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="apartado">
+                            <div class="title">
+                                <h2>how can i request a new browser</h2>
+                                <img src="./images/images/icon-arrow.svg" alt="" class="imgsAcordeon">
+                            </div>
+                            <div class="infoApartado">
+                                <p>
+                                    To download a different web browser, you need to go to the
+                                    browser manufactorer's website or use your Phone/Tablet's 
+                                    "App Store" and get the latest version of it. NEVER download
+                                    a web browser from anywhere other than the official website or
+                                    store - you risk getting viruses, malware or spyware otherwise.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="apartado">
+                            <div class="title">
+                                <h2>is there a mobile app?</h2>
+                                <img src="./images/images/icon-arrow.svg" alt="" class="imgsAcordeon">
+                            </div>
+                            <div class="infoApartado">
+                                <p>
+                                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est a fugiat officiis quidem animi similique, fuga modi consequatur odit, veritatis ipsa. Nihil, sit. Iste id vero suscipit! Minus, nemo ipsam!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="apartado">
+                            <div class="title">
+                                <h2>what about other chromium browsers?</h2>
+                                <img src="./images/images/icon-arrow.svg" alt="" class="imgsAcordeon">
+                            </div>
+                            <div class="infoApartado">
+                                <p>
+                                    Chromium is a free and open-source web browser project,
+                                    principally developed and maintained by Google. This codebase
+                                    provides the vast majority of code for the Google Chrome
+                                    browser, which is proprietary software and has some additional
+                                    features...Chromium (web browser).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="boxFiveBtn">
+                    <button class="btn-boxInfo">More info</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="container-footer">
+            <div id="footerUp">
+                <p>35.000  A L R E D Y  J O I N E D</p>
+                <h1>Stay up-to-date with what we´re doing</h1>
+                <div id="formFooter">
+                    <form id="form">
+                        <input type="email" id="emailInput" name="" id="" placeholder="Put ur Email">
+                        <input type="submit" id="btnContact" value="Contact us">
+                    </form>
+                </div>
+            </div>
+            <div id="footerDown">
+                <div id="imgFooter">
+                    <img src="./images/images/logo-bookmark.svg" alt="">
+                </div>
+                <ul>
+                    <li>FEATURES</li>
+                    <li>PIRCING</li>
+                    <li>CONTACT</li>
+                    <li><img src="./images/images/icon-facebook.svg" alt="" srcset=""></li>
+                    <li><img src="./images/images/icon-twitter.svg" alt="" srcset=""></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/03ee770d4a.js" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

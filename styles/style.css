@@ -1,0 +1,680 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300&family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*cabecera*/
+
+#encabezado{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#imgEmcabezado{
+    width: 170px;
+    height: 50px;
+    margin: 20px;
+}
+
+#navbar{
+    background-color: #ffffff;
+    color: #000000;
+    width: 400px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    border-radius: 5px;
+}
+
+#navbar ul{
+
+}
+
+.hrefNavbar{
+    color: #000000;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.hrefNavbar:hover{
+    color: #e95b5b;
+}
+
+
+.navItem{
+    height: 50px;
+    margin: -5px 0px ;
+    padding: 2px;
+}
+
+.navItem:hover{
+    color: #e95b5b;
+    cursor: pointer;
+    -webkit-transition: height 0.2s;
+}
+
+
+/*Main BoxOne*/
+
+
+
+@media (max-width: 768px) {
+    .boxOne{
+        display: block;
+        flex-direction: column;
+    }
+    #textBoxOne h1{
+        margin: 15px;
+        font-size: 38px;
+        font-weight: bold;
+    }
+    #blueRight{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: -40%;
+        margin-left: 35%;
+        height: 10%;
+        width: 5%;
+        border: 3px solid rgb(109, 109, 245);
+        background-color: rgb(109, 109, 245);
+        border-radius: 150px 0px 10px 150px;
+    }
+    .boxTwo{
+        display: block;
+        flex-direction: column;
+    }
+    #selectList{
+        display: block
+        flex-direction: column;
+    }
+    #barraAbajo{
+        overflow: hidden;
+
+    }
+    .underline{
+        display: none;
+    }
+    #boxThree{
+        display: flex;
+        flex-direction: column;
+    }
+    #textBoxThree{
+        margin: 0px;
+    }
+    #blueLeft{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30%;
+    margin-left: -17%;
+    height: 70%;
+    min-height: 400px;
+    width: 100%;
+    border: 3px solid rgb(109, 109, 245); 
+    background-color: rgb(109, 109, 245);
+    border-radius: 0px 150px 150px 10px;
+    overflow: hidden;
+    }
+}
+
+
+    
+
+#conatiner-bookmark{
+    margin: 75px;
+}
+
+.boxOne{
+    margin: 15px;
+    width: 97%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxOne #textBoxOne{
+    margin: 70px;
+    width: 500px;
+    text-align: left;
+}
+
+#btnBoxOne{
+    margin: 20px;
+}
+
+#btnBoxOne button{
+    padding: 10px;
+    margin: 25px;
+    margin-left: -5px;
+    color: rgb(133, 133, 133);
+    background-color: #ffffff;
+    border: 3px solid rgb(133, 133, 133);
+    border-radius: 5px;
+}
+
+#btnBoxOne button:hover{
+    color: rgb(109, 109, 245);
+    border: 3px solid rgb(109, 109, 245);
+}
+
+#textBoxOne h1{
+    margin: 15px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#textBoxOne p{
+    margin: 15px;
+    color: grey;
+}
+
+
+
+
+
+#imgBoxOneDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#imgBoxOne{
+    width: 100%;
+    height: 150%;
+    min-height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    min-width: 70%;
+}
+
+#containerRightTemplate{
+
+}
+
+#blueRight{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40%;
+    margin-left: 20%;
+    height: 70%;
+    min-height: 20%;
+    width: 100%;
+    border: 3px solid rgb(109, 109, 245));
+    background-color: rgb(109, 109, 245);
+    border-radius: 150px 0px 10px 150px;
+    overflow: hidden;
+}
+
+/*main box two*/
+
+#boxTwo{
+    width: 60%;
+    margin: 0px 20%;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#containerBoxTwoElements{
+    margin: 5px;
+    display:block;
+    justify-content: center;
+    text-align: center;
+}
+
+#textBoxTwo{
+    width: 60%;
+    text-align: center;
+    margin: 30px 20%;
+    display: block;
+}
+
+#textBoxTwo h2{
+    font-weight: bold;
+}
+#textBoxTwo p{
+    color: rgb(133, 133, 133);
+}
+
+#selectList{
+    display: block;
+    margin: 20px 10%;
+    width: 80%;
+    min-width: 30%;
+    height: 20%;
+}
+
+#selectList li{
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+#selectList a{
+    text-decoration: none; 
+    color: rgb(133, 133, 133);
+}
+
+#barraAbajo{
+    border-bottom: 3px solid rgb(133, 133, 133);
+    margin-top: -8.7%;
+}
+
+#selectList a:hover{
+    cursor: pointer;
+    color: #e95b5b;
+}
+
+
+
+#selectList li:hover .underline{
+    cursor: pointer;
+    border-bottom: 4px solid #e95b5b;
+    margin-left: -35%;
+}
+
+.underline{
+    border-bottom: 3px solid rgb(133, 133, 133);
+    width: 180%;
+    margin: 20px;
+    overflow: hidden;
+}
+
+
+/*Box Three*/
+
+#boxThree{
+    display: flex;
+    margin: 90px;
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    margin-left: 0%;
+}
+
+#boxFeatures{
+    margin: 60px 120px;
+}
+
+#imgBoxThreeBox{
+    width: 120%;
+    margin: 80px 0px;
+}
+
+#blueLeft{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -75%;
+    margin-left: -70%;
+    height: 100%;
+    min-height: 20%;
+    width: 140%;
+    border: 3px solid rgb(109, 109, 245); 
+    background-color: rgb(109, 109, 245);
+    border-radius: 0px 150px 150px 10px;
+    overflow: hidden;
+}
+
+.contentsItemsCarrusel{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.itemCarrusel{
+    height: 100%;
+    position: relative;
+  
+}
+
+
+.tarjetCarrusel{
+    background-color: rgb(1, 134, 90);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.imgsSlider{
+    width: 120%;
+    background: transparent;
+}
+
+#tarjetCarrusel-1{
+    background-color: transparent;
+}
+
+#tarjetCarrusel-2{
+    background-color: transparent;
+}
+
+#tarjetCarrusel-3{
+    background-color: transparent;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    cursor: pointer;
+    
+}
+
+.flechasCarrusel{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#boxThree img{
+    margin: 20px;
+    margin-bottom: 60px;
+    margin-left: -20px;
+    width: 100%;
+    height: 100%;
+}
+
+#boxThree #textBoxThree{
+    margin: 100px;
+    margin-left: 120px;
+    width: 90%;
+    overflow: hidden;
+
+}
+
+#textBoxThree h3{
+    margin: 10px 0px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#textBoxThree p{
+    margin: 0px;
+    color: grey;
+}
+
+.btn-boxInfo{
+    margin: 30px 0px;
+    background-color: rgb(109, 109, 245);
+    padding: 10px;
+    color: #fff;
+    border: rgb(109, 109, 245);
+    border-radius: 12px;
+}
+
+
+/*box four*/
+
+#boxFour{
+    height: 100%;
+    margin: 30% 0px;
+}
+
+#textBoxFour{
+    margin: 10% 30%;
+    width: 40%;
+    text-align: center;
+}
+
+#textBoxFour h3{
+    font-weight: bold;
+}
+
+#textBoxFour p{
+    color: rgb(133, 133, 133);
+}
+
+#container-browsers{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 50%;
+    margin-bottom: -10px;
+}
+
+.card-browser{
+    border: 3px solid rgb(241, 236, 241);
+    border-radius: 15px;
+    box-shadow: rgb(0, 0, 0);
+    width: 20%;
+    height: 100%;
+    margin: 3%;
+}
+
+.card-browser:first-of-type {
+    margin-top: -30px;
+}
+
+.card-browser:last-child {
+    margin-top: 70px;
+}
+
+#container-browsers h4{
+    font-weight: bold;
+}
+
+#container-browsers p{
+    color: rgb(133, 133, 133);
+}
+
+#container-browsers button{
+    margin: 30px 0px;
+    background-color: rgb(109, 109, 245);
+    padding: 10px;
+    color: #fff;
+    border: 2px solid rgb(109, 109, 245);
+    border-radius: 12px;
+}
+
+#container-browsers button:hover{
+    background-color: #fff;
+    color: rgb(109, 109, 245);
+    border: 2px solid rgb(109, 109, 245);
+}
+
+/*Box Five*/
+
+
+#boxFive{
+    margin: 25%;
+    text-align: center;
+    width: 50%;
+    display: block;
+}
+
+
+#textBoxFive{
+    width: 50%;
+    margin: 50px 25%;
+}
+
+#textBoxFive h3{
+    font-weight: bold;
+}
+
+#textBoxFive p{
+    color: rgb(133, 133, 133);
+}
+
+
+/*Acordeon*/
+
+#acordeon{
+    margin: 50px 25%;
+    width : 100%;
+    margin: 0px;
+    min-height: 50px;
+    background-color: red;
+}
+
+.apartado{
+    width : 100%;
+    min-height: 50px;
+    background-color: green;
+}
+
+.apartado:hover .infoApartado{
+    height: 170px;
+}
+
+.title{
+    width : 100%;
+    height: 50px;
+    background-color: rgb(255, 251, 251);
+    overflow: hidden;
+    display: flex;
+    border-bottom: 2px solid rgb(230, 228, 228);;
+}
+
+.title h2:hover{
+    color: #e95b5b;
+    cursor: pointer;
+}
+
+.title h2{
+    margin: 16px;
+    color: rgb(68, 67, 67);
+}
+
+.infoApartado{
+    width : 100%;
+    height: 0px;
+    background-color: #ffff;
+    overflow: hidden;
+    -webkit-transition: height 0.2s;
+}
+
+.infoApartado p{
+    margin: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.imgsAcordeon{
+    margin: 17px;
+    width: 15px;
+    height: 15px;
+}
+
+.imgsAcordeon:hover{
+    cursor: pointer;
+    -webkit-transition: height 0.2s;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 3%;
+    height: 15%;
+}
+
+#container-footer{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#footerUp{
+    background-color: rgb(109, 109, 245);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#footerUp h1{
+    font-weight: bold;
+}
+
+#formFooter{
+    display: flex;
+    justify-content: space-around;
+}
+
+#formFooter input{
+    background-color: #fff;
+    margin: 15% 0%;
+    display: flex;
+}
+
+#formFooter #emailInput:focus{
+    border: 3px solid #e95b5b;
+}
+
+
+#btnContact{
+    margin: 30px 0px;
+    background-color: rgb(109, 109, 245);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(109, 109, 245);
+    border-radius: 12px
+}
+
+#btnContact:hover{
+    color: #e95b5b;
+    border: 3px solid #e95b5b;
+    border-radius: 12px
+}
+
+
+#footerDown{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #12243f;
+    margin-top: 0%;
+
+}
+
+#imgFooter{
+    margin-top: 5%;
+    width: 12%;
+    height: 35%;
+}
+
+#footerDown ul{
+    display: flex;
+    margin: 2%;
+    margin-top: 5%;
+    height: 20%;
+    display: flex;
+    
+}
+#footerDown ul li{
+    display: flex;
+    margin: 2%;
+    margin-top: 5%;
+    height: 20%;
+    display: flex;
+    
+}
+
+#footerDown ul li:hover{
+    color: #e95b5b;
+    cursor: pointer;
+}
+
+
+
